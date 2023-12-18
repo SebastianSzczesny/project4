@@ -232,3 +232,117 @@
 
 // add(tablica)
 
+// 11
+// tablica = [1, 2, 3, 4, 5]
+
+// function bigger (num) {
+//     let biggerNum = num + 1
+//     return biggerNum
+// }
+
+// let newTablica = tablica.map (bigger)
+
+// console.log(newTablica)
+// 12
+
+// tablica = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// function onlyParzyste (num) {
+//     let parz = num % 2 === 0 
+// if (parz) {
+//     return num
+// }  {
+// null
+// }
+// }
+
+// let parzyste = tablica.filter (onlyParzyste)
+
+// console.log (parzyste)
+// 13
+ 
+// tablica = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// function double (num){
+//     let dab = num * 2
+//     return dab
+// }
+
+// let tablica2 = tablica.map (double)
+// console.log (tablica2)
+// 14
+
+// tablica = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// function biggerThen10 (num) {
+//     if (num > 10) {
+//         return num
+//     } else {
+//         return undefined
+//     }
+// }
+
+// let tablica2 = tablica.filter (biggerThen10)
+// console.log (tablica2)
+
+// 15
+// tablica = ["jeden dwa trzy cztery piec szesc"]
+
+// function podziel (element) {
+//     return element.split (' ')
+// }
+
+// let tablica2 = tablica.map (podziel)
+// console.log (tablica2)
+// 16
+// tablica = ["jeden", "dwa", "trzy", "cztery", "piec", "szesc"]
+
+// function long (element) {
+//     let dlugosc = element.length
+//     return dlugosc
+// }
+
+// let tablica2 = tablica.map (long)
+// console.log (tablica2)
+// 17
+
+// tablica = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// function nieparz (num) {
+//     let nieparzNum = num % 2 !== 0 
+//     return nieparzNum
+// }
+
+// let tablica2 = tablica.filter (nieparz)
+// console.log (tablica2)
+// 18
+
+// tablica = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// function kwadrat (num) {
+//     let num2 = num * num
+//     return num2
+// }
+
+// let tablica2 = tablica.map (kwadrat)
+// console.log (tablica2)
+// 19
+// tablica = ["jeden", "dwa", "trzy", "cztery", "piec", "szesc"]
+
+// function moreThen3 (element) {
+//     let wiecej = element.length > 3
+//     return wiecej
+// }
+
+// tablica2 = tablica.filter (moreThen3)
+// console.log (tablica2)
+// 20
+// tablica = ["jeden", "dwa", "trzy", "cztery", "piec", "szesc"]
+// function BigChar (element) {
+//     let big = element.toUpperCase ()
+//     return big
+// }
+
+// let tablica2 = tablica.map (BigChar)
+// console.log (tablica2)
+
